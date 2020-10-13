@@ -9,10 +9,10 @@ My first try at executing AMC Localization using the AMCL and the move_base pack
 
 ## Steps to Implement:
 1. Create a Catkin Workspace and clone the my_robot repo in the 'src' folder.
-2. Change back to the catkin workspace folder and execute catkin_make.
+2. Change back to the catkin workspace folder and execute ```catkin_make```
 3. ```source devel/setup.bash```
 4. ```roslaunch my_robot world.launch```
-5. For Rviz open the configuration provided in the repo.
+5. For Rviz, open the 'AMCLRviz.rviz' configuration provided in the repo.
 6. ```roslaunch my_robot amcl.launch```
 7. In the Rviz map, using the '2D Nav Goal' option, give the robot a target position and orientation.
 
